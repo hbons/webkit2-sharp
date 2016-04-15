@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<metadata>
+	<attr path="/api/namespace/object[@name='WebView']/implements/interface[@cname='GtkBuildable']" name="hidden">true</attr>
+	<attr path="/api/namespace/object[@name='WebViewBase']/implements/interface[@cname='GtkBuildable']" name="hidden">true</attr>
+	<attr path="/api/namespace/object[@name='WebView']/implements/interface[@cname='Atk.ImplementorIface']" name="cname">AtkImplementor</attr>
+	<attr path="/api/namespace/object[@name='WebViewBase']/implements/interface[@cname='Atk.ImplementorIface']" name="cname">AtkImplementor</attr>
+	<attr path="/api/namespace//object/field[@cname='parent_instance']" name="hidden">true</attr>
+	<attr path="//field[@name='Parent']" name="hidden">true</attr>
+</metadata>
+
