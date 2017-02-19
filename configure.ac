@@ -139,7 +139,7 @@ AC_SUBST(MONODOCER)
 
 AM_CONDITIONAL(ENABLE_MONODOC, test "x$enable_monodoc" = "xyes")
 dnl Check for WebKit2
-PKG_CHECK_MODULES(WEBKIT2, webkit2gtk-3.0)
+PKG_CHECK_MODULES(WEBKIT2, webkit2gtk-4.0)
 webkit2_prefix=/usr
 AC_SUBST(webkit2_prefix)
 AC_SUBST(WEBKIT2_LIBS)
