@@ -3615,8 +3615,8 @@
       <method name="GetType" cname="webkit_web_view_base_get_type" shared="true">
         <return-type type="GType"/>
       </method>
-      <field cname="parentInstance" access="public" writeable="false" readable="true" name="ParentInstance" type="GtkContainer*"/>
-      <field cname="priv" access="private" writeable="false" readable="false" name="Priv" type="WebKitWebViewBasePrivate*">
+      <field cname="parent" access="public" writeable="false" readable="true" name="Parent" type="GtkContainer*"/>
+      <field cname="priv" access="public" writeable="false" readable="true" name="Priv" type="WebKitWebViewBasePrivate*">
         <warning>missing glib:type-name</warning>
       </field>
     </object>
